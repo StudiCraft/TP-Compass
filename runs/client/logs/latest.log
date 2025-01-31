@@ -1,0 +1,99 @@
+[21Sep2024 14:57:10.058] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 20.6.117, --assetIndex, asset-index, --assetsDir, C:\Users\melan_y2w1jpu\.mcreator\gradle\caches\minecraft\assets\1.20.6, --gameDir, ., --fml.neoForgeVersion, 20.6.117, --fml.fmlVersion, 3.0.45, --fml.mcVersion, 1.20.6, --fml.neoFormVersion, 20240429.153634]
+[21Sep2024 14:57:10.071] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[21Sep2024 14:57:10.076] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.2+main.4612c65f starting: java version 21.0.3 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[21Sep2024 14:57:10.646] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[21Sep2024 14:57:11.077] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[21Sep2024 14:57:11.799] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[21Sep2024 14:57:12.537] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/melan_y2w1jpu/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23136!/ Service=ModLauncher Env=CLIENT
+[21Sep2024 14:57:13.202] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Vega 3 Graphics GL version 4.6.14761 Core Profile Forward-Compatible Context 21.30.26 30.0.13026.3, ATI Technologies Inc.
+[21Sep2024 14:57:13.773] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.6.117.jar" [locator: neoforge devenv provider ([C:\Users\melan_y2w1jpu\MCreatorWorkspaces\tp_compass_neoforge\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.6.117\neoforge-20.6.117.jar])]
+[21Sep2024 14:57:13.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.6.117.jar" [locator: neoforge devenv provider ([C:\Users\melan_y2w1jpu\MCreatorWorkspaces\tp_compass_neoforge\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.6.117\neoforge-20.6.117.jar])]
+[21Sep2024 14:57:13.840] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[21Sep2024 14:57:13.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.6.117.jar" [locator: userdev mods and services, reader: mod manifest]
+[21Sep2024 14:57:14.014] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[21Sep2024 14:57:14.839] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: C:\Users\melan_y2w1jpu\.mcreator\gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[21Sep2024 14:57:14.839] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Sep2024 14:57:15.846] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[21Sep2024 14:57:20.243] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 20.6.117, --gameDir, ., --assetsDir, C:\Users\melan_y2w1jpu\.mcreator\gradle\caches\minecraft\assets\1.20.6, --assetIndex, asset-index]
+[21Sep2024 14:57:47.687] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 225 Datafixer optimizations took 5698 milliseconds
+[21Sep2024 14:57:49.714] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Sep2024 14:57:49.717] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Sep2024 14:57:49.722] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21Sep2024 14:57:49.725] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21Sep2024 14:57:49.727] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Sep2024 14:57:50.029] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/melan_y2w1jpu/MCreatorWorkspaces/tp_compass_neoforge/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.6.117/neoforge-20.6.117.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[21Sep2024 14:57:50.030] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/melan_y2w1jpu/MCreatorWorkspaces/tp_compass_neoforge/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.6.117/neoforge-20.6.117.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[21Sep2024 14:57:50.093] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21Sep2024 14:57:50.130] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[21Sep2024 14:57:50.392] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[21Sep2024 14:57:51.285] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.6.117, for MC 1.20.6
+[21Sep2024 14:57:53.917] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[21Sep2024 14:57:54.251] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/tp_compass
+[21Sep2024 14:57:55.417] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.04.hex, loading
+[21Sep2024 14:57:55.900] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.04.hex, loading
+[21Sep2024 14:58:04.026] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[21Sep2024 14:58:04.026] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21Sep2024 14:58:05.980] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Casque (Realtek(R) Audio)
+[21Sep2024 14:58:05.982] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[21Sep2024 14:58:06.197] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
+[21Sep2024 14:58:06.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[21Sep2024 14:58:06.275] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[21Sep2024 14:58:06.278] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[21Sep2024 14:58:06.282] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[21Sep2024 14:58:06.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[21Sep2024 14:58:06.308] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[21Sep2024 14:58:06.309] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[21Sep2024 14:58:06.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21Sep2024 14:58:06.759] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21Sep2024 14:58:06.773] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21Sep2024 14:58:06.775] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21Sep2024 14:58:06.779] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21Sep2024 14:58:06.781] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[21Sep2024 14:58:06.877] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21Sep2024 14:58:28.643] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1176 recipes
+[21Sep2024 14:58:29.030] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1276 advancements
+[21Sep2024 14:59:19.177] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1306 recipes
+[21Sep2024 14:59:19.333] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1414 advancements
+[21Sep2024 14:59:21.700] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.6
+[21Sep2024 14:59:21.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Sep2024 14:59:23.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Sep2024 14:59:23.862] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[21Sep2024 14:59:24.441] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[21Sep2024 14:59:24.518] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[21Sep2024 14:59:24.536] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 961 ms
+[21Sep2024 14:59:24.648] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[21Sep2024 14:59:24.649] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 5, from 0
+[21Sep2024 14:59:26.349] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7ba06e86] logged in with entity id 1 at (-0.5, -60.0, 2.5)
+[21Sep2024 14:59:27.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[21Sep2024 14:59:28.323] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[21Sep2024 14:59:49.340] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Sep2024 14:59:49.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[21Sep2024 14:59:49.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[21Sep2024 14:59:49.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[21Sep2024 15:00:22.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to Dev]
+[21Sep2024 15:00:22.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to Dev
+[21Sep2024 15:00:38.073] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Sep2024 15:00:38.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[21Sep2024 15:00:38.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[21Sep2024 15:00:38.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[21Sep2024 15:00:38.892] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[21Sep2024 15:00:38.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[21Sep2024 15:00:38.936] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[21Sep2024 15:00:39.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Sep2024 15:00:39.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Sep2024 15:00:39.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Sep2024 15:00:43.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[21Sep2024 15:00:44.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[21Sep2024 15:00:44.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[21Sep2024 15:00:44.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[21Sep2024 15:00:44.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2024 15:00:44.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2024 15:00:44.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Sep2024 15:00:48.777] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level test
+[21Sep2024 15:00:48.778] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[21Sep2024 15:00:50.934] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1176 recipes
+[21Sep2024 15:00:51.090] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1276 advancements
+[21Sep2024 15:00:51.099] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[21Sep2024 15:00:51.105] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:can_turn_in_boats, minecraft:deflects_projectiles, minecraft:immune_to_infested, minecraft:immune_to_oozing, minecraft:no_anger_from_wind_charge
+[21Sep2024 15:00:51.108] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:blocks_wind_charge_explosions
+[21Sep2024 15:00:53.404] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

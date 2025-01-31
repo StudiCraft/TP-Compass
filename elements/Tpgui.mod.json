@@ -1,0 +1,118 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tp_selection",
+          "text": {
+            "fixedValue": "TP Selection"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_latest_spawn_point",
+          "text": "Latest Spawn Point",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonLatest"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 26,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_more_coming_soon",
+          "text": {
+            "fixedValue": "More Coming Soon!!!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 173,
+          "y": 203,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_world_spawn",
+          "text": "World Spawn",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonWorldSpawn"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 26,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x_0_z_0",
+          "text": "X: 0, Z: 0",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonX0Z0"
+          },
+          "width": 76,
+          "height": 20,
+          "x": 26,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_tp_to_player",
+          "text": "TP To Player",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonOpenTPPlayerGui"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 26,
+          "y": 128,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 5,
+      "sy": 5,
+      "ox": 5,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}

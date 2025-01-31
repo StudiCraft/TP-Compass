@@ -1,0 +1,94 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -500,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tp_to_player",
+          "text": {
+            "fixedValue": "TP To Player"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 29,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonBackFromTPToPlayerGui"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 69,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Player To Be TP",
+          "name": "PlayerName",
+          "width": 120,
+          "height": 20,
+          "x": 149,
+          "y": 114,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ok",
+          "text": "OK",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TPCompassTPButtonOKFromTPToPlayerGui"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 191,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Player To TP",
+          "name": "myselfname",
+          "width": 120,
+          "height": 20,
+          "x": 149,
+          "y": 71,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 5,
+      "sy": 5,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": true
+    }
+  }
+}

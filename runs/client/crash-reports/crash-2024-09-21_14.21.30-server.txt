@@ -1,0 +1,130 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2024-09-21 14:21:30
+Description: Ticking player
+
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:player_head[minecraft:profile={name:6thegamingcraft}]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:273) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:48) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:52) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/tp_compass@0.0.6/net.mcreator.tp_compass.procedures.TPCompassTPButtonTPToPlayerGuiOpenedProcedure.execute(TPCompassTPButtonTPToPlayerGuiOpenedProcedure.java:20) ~[%23194!/:?] {re:classloading}
+	at TRANSFORMER/tp_compass@0.0.6/net.mcreator.tp_compass.world.inventory.TPToPlayerGuiMenu.onPlayerTick(TPToPlayerGuiMenu.java:1273) ~[%23194!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.1.jar%23149!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.1.jar%23149!/:?] {}
+	at TRANSFORMER/neoforge@20.6.117/net.neoforged.neoforge.event.EventHooks.firePlayerTickPost(EventHooks.java:951) ~[neoforge-20.6.117.jar%23193!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.entity.player.Player.tick(Player.java:320) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:549) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:259) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.network.Connection.tick(Connection.java:405) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:159) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1027) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:893) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:109) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:701) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:261) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:273) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:48) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:52) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/tp_compass@0.0.6/net.mcreator.tp_compass.procedures.TPCompassTPButtonTPToPlayerGuiOpenedProcedure.execute(TPCompassTPButtonTPToPlayerGuiOpenedProcedure.java:20) ~[%23194!/:?] {re:classloading}
+	at TRANSFORMER/tp_compass@0.0.6/net.mcreator.tp_compass.world.inventory.TPToPlayerGuiMenu.onPlayerTick(TPToPlayerGuiMenu.java:1273) ~[%23194!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:350) ~[bus-8.0.1.jar%23149!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:315) ~[bus-8.0.1.jar%23149!/:?] {}
+	at TRANSFORMER/neoforge@20.6.117/net.neoforged.neoforge.event.EventHooks.firePlayerTickPost(EventHooks.java:951) ~[neoforge-20.6.117.jar%23193!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.entity.player.Player.tick(Player.java:320) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 1
+	Entity Name: Dev
+	Entity's Exact location: -2.97, -60.00, 11.21
+	Entity's Block location: World: (-3,-60,11), Section: (at 13,4,11 in -1,-4,0; chunk contains blocks -16,-64,0 to -1,319,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:549) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:259) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.network.Connection.tick(Connection.java:405) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:159) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1027) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:893) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:109) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:701) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:261) ~[neoforge-20.6.117.jar%23192!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.6
+	Minecraft Version ID: 1.20.6
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 236988824 bytes (226 MiB) / 643825664 bytes (614 MiB) up to 991952896 bytes (946 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD 3020e with Radeon Graphics                 
+	Identifier: AuthenticAMD Family 23 Model 32 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 1.20
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: AMD Radeon(TM) Vega 3 Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.13026.3
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 15555.77
+	Virtual memory used (MB): 9277.49
+	Swap memory total (MB): 11776.00
+	Swap memory used (MB): 1653.99
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/1, l='ServerLevel[test]', x=-2.97, y=-60.00, z=11.21]]
+	Active Data Packs: vanilla, mod_data, mod/neoforge, mod/tp_compass, update_1_21, trade_rebalance, bundle
+	Available Data Packs: bundle, trade_rebalance, update_1_21, vanilla, mod/neoforge, mod/tp_compass, mod_data
+	Enabled Feature Flags: minecraft:update_1_21, minecraft:bundle, minecraft:vanilla, minecraft:trade_rebalance
+	World Generation: Experimental
+	World Seed: 4647617565055806751
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 20.6.117
+	ModLauncher: 11.0.2+main.4612c65f
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.13.4+mixin.0.8.5.jar mixin PLUGINSERVICE 
+		loader-3.0.45.jar slf4jfixer PLUGINSERVICE 
+		loader-3.0.45.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-3.0.45.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.2.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.2.jar mixin-synthetic-package TRANSFORMATIONSERVICE 
+		modlauncher-11.0.2.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@3.0
+		lowcodefml@3.0
+		minecraft@3.0
+	Mod List: 
+		neoforge-20.6.117.jar                             |Minecraft                     |minecraft                     |1.20.6              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-20.6.117.jar                             |NeoForge                      |neoforge                      |20.6.117            |Manifest: NOSIGNATURE
+		main                                              |TP Compass                    |tp_compass                    |0.0.6               |Manifest: NOSIGNATURE
+	Crash Report UUID: 5b58b617-d07b-4c6c-bf10-10b45d62053e
+	FML: 3.0.45
+	NeoForge: 20.6.117

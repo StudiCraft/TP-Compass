@@ -1,0 +1,43 @@
+/spawnpoint @s ~ ~ ~
+/clear
+/spawnpoint @s ~ ~ ~
+/spawnpoint @s 30 63 -112
+/spawnpoint @s 30 62 -112
+/clear
+/tpcompass gui
+/tpcompass
+/clear
+/tpcompass
+/tpcompass gui
+/tpcompass
+/give Dev tp_compass:tp_compass
+/tpcompass
+/tpcompass lol
+/tpcompass gui
+/tpcompass lol
+/tpcompass gui
+/tpcompass
+/tpcompass gui
+/clear
+/tpcompass gui
+/tpcompass
+/tpcompass world_spawn
+/tpcompass latest_spawn_point
+/tpcompass gui
+/clear Dev minecraft:dirt 13
+/give Dev minecraft:player_head 1
+/give Dev minecraft:player_head
+/give Dev minecraft:player_head{SkullOwner=6Thegamingcraft}
+/give Dev player_head[profile={name:6Thegamingcraft}]
+/give Dev minecraft:player_head[minecraft:profile={name=Dream}]
+/give Dev minecraft:player_head[minecraft:profile={name:Dream}]
+/give Dev minecraft:player_head[minecraft:profile={name:Domicien}]
+/give Dev minecraft:player_head[minecraft:profile={name:666}]
+/clear Dev minecraft:player_head
+/kill @e[type=minecraft:chicken]
+/summon player
+/tpcompass gui
+/give Dev tp_compass:tp_compass
+/tpcompass gui
+/give Dev tp_compass:tp_compass
+/tp Dev Dev

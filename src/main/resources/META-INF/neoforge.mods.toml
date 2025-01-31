@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tp_compass"
+version="0.0.6"
+displayName="TP Compass"
+displayURL="https://youtube.com/@6Thegamingcraft_Officielle"
+logoFile="logo.png"
+credits="Created with MCreator. Thank you!"
+authors="6Thegamingcraft"
+description="TP yourself to different locations! More coming soon!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.tp_compass]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.tp_compass]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

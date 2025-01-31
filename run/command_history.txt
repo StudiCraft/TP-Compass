@@ -1,0 +1,5 @@
+/config showfile minecraft SERVER
+/config showfile minecraft COMMON
+/config showfileclient minecraft
+/config showfileclient neoforge
+/restart
