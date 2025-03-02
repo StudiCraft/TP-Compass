@@ -371,7 +371,7 @@
   "language_map": {
     "en_us": {
       "gui.spawn_tp_command.tpgui.button_world_spawn": "World Spawn",
-      "gui.tp_compass.tp_to_player_gui.PlayerName": "Player To Be TP",
+      "gui.tp_compass.tp_to_player_gui.PlayerName": "Enter username",
       "gui.tp_compass.tp_to_player_gui.myselfname": "Player To TP",
       "gui.tp_compass.tp_to_player_gui.button_ok": "OK",
       "gui.tp_compass.tpgui.button_x_0_z_0": "X: 0, Z: 0",
@@ -382,6 +382,7 @@
       "item.spawn_tp_command.tp_compass": "TP Compass",
       "gui.spawn_tp_command.tpgui.button_latest_spawn_point": "Latest Spawn Point",
       "item.tp_compass.tp_compass": "TP Compass",
+      "gui.tp_compass.tp_to_player_gui.label_youll_be_tp_to": "You\u0027ll be tp to:",
       "gui.tp_compass.tpgui.button_tp_to_player": "TP To Player",
       "gui.tp_compass.tpgui.button_latest_spawn_point": "Latest Spawn Point",
       "gui.tp_compass.tp_to_player_gui.button_back": "Back",
@@ -401,6 +402,7 @@
       "item.spawn_tp_command.tp_compass": "Boussole de Téléportation",
       "gui.spawn_tp_command.tpgui.button_latest_spawn_point": "Dernier Point de Réapparition",
       "item.tp_compass.tp_compass": "Boussole de Téléportation",
+      "gui.tp_compass.tp_to_player_gui.label_youll_be_tp_to": "You\u0027ll be tp to:",
       "gui.tp_compass.tpgui.button_tp_to_player": "TP To Player",
       "gui.tp_compass.tpgui.button_latest_spawn_point": "Dernier Point de Réapparition",
       "gui.tp_compass.tp_to_player_gui.button_back": "Back",
@@ -415,20 +417,19 @@
   "workspaceSettings": {
     "modid": "tp_compass",
     "modName": "TP Compass",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "TP yourself to different locations! More coming soon!",
-    "author": "6Thegamingcraft",
-    "websiteURL": "https://youtube.com/@6Thegamingcraft_Officielle",
+    "author": "StudiCraft",
+    "websiteURL": "https://youtube.com/@StudiCraft",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
-    "modPicture": "logotpcompassmod",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created with MCreator. Thank you!",
+    "credits": "Made with MCreator",
     "modElementsPackage": "net.mcreator.tp_compass"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400452410
 }

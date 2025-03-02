@@ -21,9 +21,11 @@ public class TPCompassTPButtonOKFromTPToPlayerGuiProcedure {
 		if (entity == null || guistate == null)
 			return;
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TpCompassModItems.TP_COMPASS.get())) : false) {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), ("tp" + " "
-						+ (guistate.containsKey("text:myselfname") ? ((EditBox) guistate.get("text:myselfname")).getValue() : "") + " " + (guistate.containsKey("text:PlayerName") ? ((EditBox) guistate.get("text:PlayerName")).getValue() : "")));
+			if (!(entity.getDisplayName().getString()).equals(guistate.containsKey("text:PlayerName") ? ((EditBox) guistate.get("text:PlayerName")).getValue() : "")) {
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							("tp" + " " + entity.getDisplayName().getString() + " " + (guistate.containsKey("text:PlayerName") ? ((EditBox) guistate.get("text:PlayerName")).getValue() : "")));
+			}
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("You have to get a TP Compass to run this!"), true);

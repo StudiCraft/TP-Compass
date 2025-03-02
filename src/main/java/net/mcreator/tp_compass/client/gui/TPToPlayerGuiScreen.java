@@ -26,7 +26,6 @@ public class TPToPlayerGuiScreen extends AbstractContainerScreen<TPToPlayerGuiMe
 	private final int x, y, z;
 	private final Player entity;
 	EditBox PlayerName;
-	EditBox myselfname;
 	Button button_back;
 	Button button_ok;
 
@@ -48,7 +47,6 @@ public class TPToPlayerGuiScreen extends AbstractContainerScreen<TPToPlayerGuiMe
 		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		PlayerName.render(guiGraphics, mouseX, mouseY, partialTicks);
-		myselfname.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
@@ -69,29 +67,26 @@ public class TPToPlayerGuiScreen extends AbstractContainerScreen<TPToPlayerGuiMe
 		}
 		if (PlayerName.isFocused())
 			return PlayerName.keyPressed(key, b, c);
-		if (myselfname.isFocused())
-			return myselfname.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	public void resize(Minecraft minecraft, int width, int height) {
 		String PlayerNameValue = PlayerName.getValue();
-		String myselfnameValue = myselfname.getValue();
 		super.resize(minecraft, width, height);
 		PlayerName.setValue(PlayerNameValue);
-		myselfname.setValue(myselfnameValue);
 	}
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.tp_compass.tp_to_player_gui.label_tp_to_player"), 117, 9, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tp_compass.tp_to_player_gui.label_youll_be_tp_to"), 107, 61, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		PlayerName = new EditBox(this.font, this.leftPos + 86, this.topPos + 95, 118, 18, Component.translatable("gui.tp_compass.tp_to_player_gui.PlayerName")) {
+		PlayerName = new EditBox(this.font, this.leftPos + 88, this.topPos + 85, 118, 18, Component.translatable("gui.tp_compass.tp_to_player_gui.PlayerName")) {
 			@Override
 			public void insertText(String text) {
 				super.insertText(text);
@@ -114,29 +109,6 @@ public class TPToPlayerGuiScreen extends AbstractContainerScreen<TPToPlayerGuiMe
 		PlayerName.setSuggestion(Component.translatable("gui.tp_compass.tp_to_player_gui.PlayerName").getString());
 		guistate.put("text:PlayerName", PlayerName);
 		this.addWidget(this.PlayerName);
-		myselfname = new EditBox(this.font, this.leftPos + 86, this.topPos + 52, 118, 18, Component.translatable("gui.tp_compass.tp_to_player_gui.myselfname")) {
-			@Override
-			public void insertText(String text) {
-				super.insertText(text);
-				if (getValue().isEmpty())
-					setSuggestion(Component.translatable("gui.tp_compass.tp_to_player_gui.myselfname").getString());
-				else
-					setSuggestion(null);
-			}
-
-			@Override
-			public void moveCursorTo(int pos, boolean flag) {
-				super.moveCursorTo(pos, flag);
-				if (getValue().isEmpty())
-					setSuggestion(Component.translatable("gui.tp_compass.tp_to_player_gui.myselfname").getString());
-				else
-					setSuggestion(null);
-			}
-		};
-		myselfname.setMaxLength(32767);
-		myselfname.setSuggestion(Component.translatable("gui.tp_compass.tp_to_player_gui.myselfname").getString());
-		guistate.put("text:myselfname", myselfname);
-		this.addWidget(this.myselfname);
 		button_back = Button.builder(Component.translatable("gui.tp_compass.tp_to_player_gui.button_back"), e -> {
 			if (true) {
 				PacketDistributor.sendToServer(new TPToPlayerGuiButtonMessage(0, x, y, z));

@@ -45,12 +45,12 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Player To Be TP",
+          "placeholder": "Enter username",
           "name": "PlayerName",
           "width": 120,
           "height": 20,
-          "x": 149,
-          "y": 114,
+          "x": 151,
+          "y": 104,
           "locked": false
         }
       },
@@ -71,14 +71,18 @@
         }
       },
       {
-        "type": "textfield",
+        "type": "label",
         "data": {
-          "placeholder": "Player To TP",
-          "name": "myselfname",
-          "width": 120,
-          "height": 20,
-          "x": 149,
-          "y": 71,
+          "name": "label_youll_be_tp_to",
+          "text": {
+            "fixedValue": "You'll be tp to:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 171,
+          "y": 81,
           "locked": false
         }
       }

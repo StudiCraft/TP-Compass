@@ -4,12 +4,11 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="tp_compass"
-version="0.0.6"
+version="0.0.7"
 displayName="TP Compass"
-displayURL="https://youtube.com/@6Thegamingcraft_Officielle"
-logoFile="logo.png"
-credits="Created with MCreator. Thank you!"
-authors="6Thegamingcraft"
+displayURL="https://youtube.com/@StudiCraft"
+credits="Made with MCreator"
+authors="StudiCraft"
 description="TP yourself to different locations! More coming soon!"
 
 # Start of user code block mod configuration
