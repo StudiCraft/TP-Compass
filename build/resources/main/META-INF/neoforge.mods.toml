@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="tp_compass"
-version="0.0.7"
+version="0.0.8"
 displayName="TP Compass"
 displayURL="https://youtube.com/@StudiCraft"
 credits="Made with MCreator"
@@ -17,14 +17,14 @@ description="TP yourself to different locations! More coming soon!"
 [[dependencies.tp_compass]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.65,)"
+    versionRange="[21.4.101-beta,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.tp_compass]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.4]"
     ordering="AFTER"
     side="BOTH"
 

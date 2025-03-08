@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tp_compass:item/tp_compass"
+  }
+}

@@ -9,7 +9,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/tp_compass/models/item/tp_compass.json",
-          "src/main/java/net/mcreator/tp_compass/item/TPCompassItem.java"
+          "src/main/resources/assets/tp_compass/items/tp_compass.json",
+          "src/main/java/net/tp_compass/item/TPCompassItem.java"
         ]
       }
     },
@@ -21,9 +22,9 @@
       "registry_name": "tpgui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/network/TpguiButtonMessage.java",
-          "src/main/java/net/mcreator/tp_compass/world/inventory/TpguiMenu.java",
-          "src/main/java/net/mcreator/tp_compass/client/gui/TpguiScreen.java"
+          "src/main/java/net/tp_compass/client/gui/TpguiScreen.java",
+          "src/main/java/net/tp_compass/network/TpguiButtonMessage.java",
+          "src/main/java/net/tp_compass/world/inventory/TpguiMenu.java"
         ]
       }
     },
@@ -35,7 +36,7 @@
       "registry_name": "tp_compass_right_clicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassRightClickedProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassRightClickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -69,7 +70,7 @@
       "registry_name": "tp_compass_tp_button_latest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonLatestProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonLatestProcedure.java"
         ],
         "dependencies": [
           {
@@ -87,7 +88,7 @@
       "registry_name": "tp_compass_tp_button_world_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonWorldSpawnProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonWorldSpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -121,7 +122,7 @@
       "registry_name": "tp_command_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/command/TPCommandCommand.java"
+          "src/main/java/net/tp_compass/command/TPCommandCommand.java"
         ]
       }
     },
@@ -133,7 +134,7 @@
       "registry_name": "tp_command_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCommandGuiProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCommandGuiProcedure.java"
         ],
         "dependencies": [
           {
@@ -167,7 +168,7 @@
       "registry_name": "tp_command_latest_spawn_point",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCommandLatestSpawnPointProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCommandLatestSpawnPointProcedure.java"
         ],
         "dependencies": [
           {
@@ -185,7 +186,7 @@
       "registry_name": "tp_command_world_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCommandWorldSpawnProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCommandWorldSpawnProcedure.java"
         ],
         "dependencies": [
           {
@@ -207,7 +208,7 @@
       "registry_name": "tp_compass_tp_button_x_0_z_0",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonX0Z0Procedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonX0Z0Procedure.java"
         ],
         "dependencies": [
           {
@@ -229,7 +230,7 @@
       "registry_name": "tp_command_x_0_z_0",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCommandX0Z0Procedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCommandX0Z0Procedure.java"
         ],
         "dependencies": [
           {
@@ -251,7 +252,7 @@
       "registry_name": "tp_compass_tp_button_open_tp_player_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonOpenTPPlayerGuiProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonOpenTPPlayerGuiProcedure.java"
         ],
         "dependencies": [
           {
@@ -285,9 +286,9 @@
       "registry_name": "tp_to_player_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/world/inventory/TPToPlayerGuiMenu.java",
-          "src/main/java/net/mcreator/tp_compass/client/gui/TPToPlayerGuiScreen.java",
-          "src/main/java/net/mcreator/tp_compass/network/TPToPlayerGuiButtonMessage.java"
+          "src/main/java/net/tp_compass/world/inventory/TPToPlayerGuiMenu.java",
+          "src/main/java/net/tp_compass/client/gui/TPToPlayerGuiScreen.java",
+          "src/main/java/net/tp_compass/network/TPToPlayerGuiButtonMessage.java"
         ]
       }
     },
@@ -299,7 +300,7 @@
       "registry_name": "tp_compass_tp_button_back_from_tp_to_player_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonBackFromTPToPlayerGuiProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonBackFromTPToPlayerGuiProcedure.java"
         ],
         "dependencies": [
           {
@@ -333,7 +334,7 @@
       "registry_name": "tp_compass_tp_button_ok_from_tp_to_player_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tp_compass/procedures/TPCompassTPButtonOKFromTPToPlayerGuiProcedure.java"
+          "src/main/java/net/tp_compass/procedures/TPCompassTPButtonOKFromTPToPlayerGuiProcedure.java"
         ],
         "dependencies": [
           {
@@ -343,6 +344,56 @@
           {
             "name": "guistate",
             "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TPCommandAlias",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_command_alias",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tp_compass/command/TPCommandAliasCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "TPCommandToPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_command_to_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tp_compass/procedures/TPCommandToPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
           },
           {
             "name": "x",
@@ -387,7 +438,7 @@
       "gui.tp_compass.tpgui.button_latest_spawn_point": "Latest Spawn Point",
       "gui.tp_compass.tp_to_player_gui.button_back": "Back",
       "gui.spawn_tp_command.tpgui.label_tp_selection": "TP Selection",
-      "gui.tp_compass.tpgui.label_more_coming_soon": "More Coming Soon"
+      "gui.tp_compass.tpgui.label_more_coming_soon": "More Coming Soon!!!"
     },
     "fr_fr": {
       "gui.spawn_tp_command.tpgui.button_world_spawn": "Apparition du Monde",
@@ -417,7 +468,7 @@
   "workspaceSettings": {
     "modid": "tp_compass",
     "modName": "TP Compass",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "TP yourself to different locations! More coming soon!",
     "author": "StudiCraft",
     "websiteURL": "https://youtube.com/@StudiCraft",
@@ -427,9 +478,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-1.21.4",
     "credits": "Made with MCreator",
-    "modElementsPackage": "net.mcreator.tp_compass"
+    "modElementsPackage": "net.tp_compass"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500110519
 }

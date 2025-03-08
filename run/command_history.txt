@@ -3,3 +3,29 @@
 /config showfileclient minecraft
 /config showfileclient neoforge
 /restart
+/tpcompass to_player Dev
+/tc to_player Dev
+/tpcompass to_player Dev
+/tpcompass
+/tpcompass to_player Dev
+/tc to_player Dev
+/tpcompass to_player Dev
+/give Dev tp_compass:tp_compass
+/tc to_player Dev
+/tc to_player
+/tpcompass to_player Dev
+/tc to_player Dev
+/give Dev tp_compass:tp_compass
+/tc to_player Dev
+/give Dev tp_compass:tp_compass
+/tc to_player Dev
+/give Dev tp_compass:tp_compass
+/tc to_player Dev
+/give Dev tp_compass:tp_compass
+/tc to_player Dev
+/tc to_player @s
+/tc to_player blablatage
+/tc to_player Dev
+/execute if function tpcommandtoplayer
+/give Dev tp_compass:tp_compass
+/tc to_player Dev

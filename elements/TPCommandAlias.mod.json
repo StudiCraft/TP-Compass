@@ -1,0 +1,10 @@
+{
+  "_fv": 77,
+  "_type": "command",
+  "definition": {
+    "commandName": "tc",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">gui</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TPCommandGui</field></block></statement><next><block type=\"literal\"><field name=\"name\">latest_spawn_point</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TPCommandLatestSpawnPoint</field></block></statement><next><block type=\"literal\"><field name=\"name\">world_spawn</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TPCommandWorldSpawn</field></block></statement><next><block type=\"literal\"><field name=\"name\">x_0_z_0</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TPCommandX0Z0</field></block></statement><next><block type=\"literal\"><field name=\"name\">to_player</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">player_name</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">TPCommandToPlayer</field></block></statement></block></statement></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
